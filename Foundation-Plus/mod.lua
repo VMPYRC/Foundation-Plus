@@ -43,4 +43,20 @@ foundationPlus:overrideAsset({
 	},
 })
 
+-- patrols --
+
+foundationPlus:overrideAsset({
+	Id = "DEFAULT_SAFETY_SETTINGS",
+	ActiveFortificationDisableTime = 120.0,
+	BaseValueOnPatrol = 1.0,
+	DelayBetweenPatrollerInGroup = 5.0,
+	EmptyPatrolWeightValue = 1000.0,
+	PatrolDepletionRate = 0.05,
+	PatrolDistanceBoostPerGroupSize = 10.0,
+	PatrolEffectDistance = 1000.0,
+	PatrollerGroupingMaximumWaitTimeProportion = 0,
+	PatrollerRangeVisualWidth = 10.0,
+	RequiredPatrolAdditionalWeightValue = 100,
+})
+
 -- split --
