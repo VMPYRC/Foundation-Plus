@@ -68,7 +68,7 @@ foundationPlus:overrideAsset({
 		Time = 12000.0,
 	},
 	MaxSegmentPavingPerCycle = 200,
-	RoadDowngradeTimePercentageWeightValue = 200.0,
+	RoadDowngradeTimePercentageWeightValue = 25.0,
 	UnpavedRoadWeightValue = 300.0,
 })
 
