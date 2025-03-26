@@ -59,4 +59,17 @@ foundationPlus:overrideAsset({
 	RequiredPatrolAdditionalWeightValue = 100,
 })
 
+-- paved roads / pavior --
+
+foundationPlus:overrideAsset({
+	Id = "DEFAULT_PAVED_ROAD_MANAGER_SETTINGS",
+	TimeBeforeDowngrade = {
+		Type = "MONTHS",
+		Time = 12000.0,
+	},
+	MaxSegmentPavingPerCycle = 200,
+	RoadDowngradeTimePercentageWeightValue = 200.0,
+	UnpavedRoadWeightValue = 300.0,
+})
+
 -- split --
