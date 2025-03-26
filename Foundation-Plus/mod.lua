@@ -7,14 +7,10 @@ foundationPlus:overrideAsset({
 	InitialFamilyCount = 50,
 	InitialGoldCapacity = 100000,
 	MinimumHappinessForLeaving = 1,
+	ImmigrationFactorList = {},
 })
 
 -- immigration --
-
-foundationPlus:overrideAsset({
-	Id = "DEFAULT_BALANCING",
-	ImmigrationFactorList = {},
-})
 
 foundationPlus:overrideAsset({
 	Id = "DEFAULT_IMMIGRATION_SETTINGS",
@@ -689,5 +685,10 @@ foundationPlus:overrideAsset({
 		},
 	},
 })
+
+-- lighting --
+
+--DECO_TORCH_02B
+--BUILDING_DECORATIVE_TWIN_LANTERN_POST
 
 -- split --
