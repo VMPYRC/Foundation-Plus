@@ -72,4 +72,622 @@ foundationPlus:overrideAsset({
 	UnpavedRoadWeightValue = 300.0,
 })
 
+-- building changes --
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_BAKERY",
+	ResourceProduced = {
+		{
+			Resource = "BREAD",
+			Quantity = 10,
+		},
+	},
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_BLACKSMITH",
+	ResourceProduced = {
+		{
+			Resource = "TOOL",
+			Quantity = 2,
+		},
+	},
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_BOWYER_RECIPE_A",
+	ResourceProduced = {
+		{
+			Resource = "SHORTBOW",
+			Quantity = 5,
+		},
+	},
+})
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_BOWYER_RECIPE_B",
+	ResourceProduced = {
+		{
+			Resource = "LONGBOW",
+			Quantity = 5,
+		},
+	},
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_BREWERY",
+	ResourceProduced = {
+		{
+			Resource = "BEER",
+			Quantity = 5,
+		},
+	},
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_BUTCHER",
+	ResourceProduced = {
+		{
+			Resource = "MEAT",
+			Quantity = 10,
+		},
+	},
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_CANDLE_WORKSHOP",
+	ResourceProduced = {
+		{
+			Resource = "CANDLE",
+			Quantity = 5,
+		},
+	},
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_CASTLE_ARMORY",
+	SocketCapacity = 1000,
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_CASTLE_MESS_HALL",
+	CapacityPerSlot = 1000,
+	IsOverrideCapacity = true,
+	SlotCount = 6,
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_CHEESE_MAKER",
+	ResourceProduced = {
+		{
+			Resource = "CHEESE",
+			Quantity = 10,
+		},
+	},
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_CITY_MARKET_STORAGE",
+	SocketCapacity = 1000,
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_CITY_MARKET_TABLE_FOOD",
+	CapacityPerSlot = 1000,
+	IsOverrideCapacity = true,
+	SlotCount = 6,
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_CITY_MARKET_TABLE_GOODS",
+	CapacityPerSlot = 1000,
+	IsOverrideCapacity = true,
+	SlotCount = 3,
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_CITY_MARKET_TABLE_LUXURY",
+	CapacityPerSlot = 1000,
+	IsOverrideCapacity = true,
+	SlotCount = 4,
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_COAL_HUT",
+	ResourceProduced = {
+		{
+			Resource = "COAL",
+			Quantity = 5,
+		},
+	},
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_COMMON_WARES_WORKSHOP",
+	ResourceProduced = {
+		{
+			Resource = "COMMON_WARES",
+			Quantity = 5,
+		},
+	},
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_COOPERAGE",
+	ResourceProduced = {
+		{
+			Resource = "BARREL",
+			Quantity = 5,
+		},
+	},
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_DAIRY_FARM",
+	AreaPerLivestock = 1.0,
+	MinimumAreaForFirstLivestock = 1.0,
+	ResourceProduced = {
+		{
+			Resource = "MILK",
+			Quantity = 5,
+		},
+	},
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_FISHING_HUT",
+	ResourceProduced = {
+		{
+			Resource = "FISH",
+			Quantity = 2,
+		},
+	},
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_FOOD_MARKET",
+	CapacityPerSlot = 1000,
+	IsOverrideCapacity = true,
+	SlotCount = 4,
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_GATHERING_HUT",
+	ResourceProduced = {
+		{
+			Resource = "BERRIES",
+			Quantity = 5,
+		},
+	},
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_GLASS_SMELTER",
+	ResourceProduced = {
+		{
+			Resource = "GLASS",
+			Quantity = 5,
+		},
+	},
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_GOLD_SMELTER",
+	ResourceProduced = {
+		{
+			Resource = "GOLD_BARS",
+			Quantity = 5,
+		},
+	},
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_GOODS_MARKET",
+	CapacityPerSlot = 1000,
+	IsOverrideCapacity = true,
+	SlotCount = 4,
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_GRANARY",
+	SocketCapacity = 1000,
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_HOUSING",
+	IsCapacityOverriden = true,
+	OccupationCapacityMultiplier = 20.0,
+	ShowCapacity = true,
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_HUNTERS_HUT",
+	ResourceProduced = {
+		{
+			Resource = "BOAR",
+			Quantity = 5,
+		},
+	},
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_INN_BREWERY",
+	ResourceProduced = {
+		{
+			Resource = "BERRY_BREW",
+			Quantity = 5,
+		},
+	},
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_IRON_MINE",
+	ResourceProduced = {
+		{
+			Resource = "IRON_ORE",
+			Quantity = 5,
+		},
+	},
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_IRON_SMELTER",
+	ResourceProduced = {
+		{
+			Resource = "IRON",
+			Quantity = 5,
+		},
+	},
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_JEWELER_WORKSHOP",
+	ResourceProduced = {
+		{
+			Resource = "JEWELRY",
+			Quantity = 5,
+		},
+	},
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_LUXURY_MARKET",
+	CapacityPerSlot = 1000,
+	IsOverrideCapacity = true,
+	SlotCount = 4,
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_MONASTERY_BEEKEEPING",
+	ResourceProduced = {
+		{
+			Resource = "WAX",
+			Quantity = 5,
+		},
+		{
+			Resource = "HONEY",
+			Quantity = 5,
+		},
+	},
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_MONASTERY_BERRY_GARDEN",
+	ResourceProduced = {
+		{
+			Resource = "BERRIES",
+			Quantity = 5,
+		},
+	},
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_MONASTERY_HERB_GARDEN",
+	ResourceProduced = {
+		{
+			Resource = "HERBS",
+			Quantity = 10,
+		},
+	},
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_MONASTERY_KITCHEN_RECIPE_A",
+	ResourceProduced = {
+		{
+			Resource = "MONASTIC_MEAL",
+			Quantity = 10,
+		},
+	},
+})
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_MONASTERY_KITCHEN_RECIPE_B",
+	ResourceProduced = {
+		{
+			Resource = "MONASTIC_MEAL",
+			Quantity = 10,
+		},
+	},
+})
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_MONASTERY_KITCHEN_RECIPE_C",
+	ResourceProduced = {
+		{
+			Resource = "MONASTIC_MEAL",
+			Quantity = 10,
+		},
+	},
+})
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_MONASTERY_KITCHEN_RECIPE_D",
+	ResourceProduced = {
+		{
+			Resource = "MONASTIC_MEAL",
+			Quantity = 10,
+		},
+	},
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_MONASTERY_REFECTORY",
+	CapacityPerSlot = 1000,
+	IsOverrideCapacity = true,
+	SlotCount = 10,
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_MONASTERY_SCRIPTORIUM",
+	ResourceProduced = {
+		{
+			Resource = "MANUSCRIPT",
+			Quantity = 1000,
+		},
+	},
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_MONASTERY_STORAGE",
+	SocketCapacity = 1000,
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_MONASTERY_VEGETABLE_GARDEN",
+	ResourceProduced = {
+		{
+			Resource = "VEGETABLES",
+			Quantity = 10,
+		},
+	},
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_MONASTERY_WINERY",
+	ResourceProduced = {
+		{
+			Resource = "WINE",
+			Quantity = 5,
+		},
+	},
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_PAVIOR_YARD",
+	WorkerCapacity = 20,
+	ProductionCycleDurationInSec = 0.1,
+	WorkCycleNeededToProduceOnce = 1.0,
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_QUARRY_GOLD",
+	ResourceProduced = {
+		{
+			Resource = "GOLD_ORE",
+			Quantity = 5,
+		},
+	},
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_QUARRY_IRON",
+	ResourceProduced = {
+		{
+			Resource = "IRON_ORE",
+			Quantity = 5,
+		},
+	},
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_QUARRY_MARBLE",
+	ResourceProduced = {
+		{
+			Resource = "MARBLE",
+			Quantity = 5,
+		},
+	},
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_QUARRY_QUARTZ",
+	ResourceProduced = {
+		{
+			Resource = "QUARTZ",
+			Quantity = 5,
+		},
+	},
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_QUARRY_STONE",
+	ResourceProduced = {
+		{
+			Resource = "STONE",
+			Quantity = 5,
+		},
+	},
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_QUARRY_STORAGE",
+	GemsCapacity = 1000,
+	MineralCapacity = 1000,
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_QUARRY_STORAGE_IMPROVEMENT_SMALL",
+	Capacity = 1000,
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_SAWMILL",
+	ResourceProduced = {
+		{
+			Resource = "PLANK",
+			Quantity = 5,
+		},
+	},
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_SHEEP_FARM",
+	AreaPerLivestock = 1.0,
+	MinimumAreaForFirstLivestock = 1.0,
+	ResourceProduced = {
+		{
+			Resource = "WOOL",
+			Quantity = 5,
+		},
+	},
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_STONECUTTER_CAMP",
+	ResourceProduced = {
+		{
+			Resource = "STONE",
+			Quantity = 5,
+		},
+	},
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_STONEMASON_HUT",
+	ResourceProduced = {
+		{
+			Resource = "POLISHED_STONE",
+			Quantity = 5,
+		},
+	},
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_SWORDSMITH_RECIPE_A",
+	ResourceProduced = {
+		{
+			Resource = "SWORD",
+			Quantity = 5,
+		},
+	},
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_SWORDSMITH_RECIPE_B",
+	ResourceProduced = {
+		{
+			Resource = "STEEL_SWORD",
+			Quantity = 5,
+		},
+	},
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_TAVERN_SERVICE_COUNTER",
+	CapacityPerSlot = 1000,
+	IsOverrideCapacity = true,
+	SlotCount = 10,
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_SPEARMAKER_RECIPE_A",
+	ResourceProduced = {
+		{
+			Resource = "SPEAR",
+			Quantity = 5,
+		},
+	},
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_SPEARMAKER_RECIPE_B",
+	ResourceProduced = {
+		{
+			Resource = "PIKE",
+			Quantity = 5,
+		},
+	},
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_TAILOR_WORKSHOP",
+	ResourceProduced = {
+		{
+			Resource = "CLOTHES",
+			Quantity = 5,
+		},
+	},
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_TREASURY",
+	CapacityMultiplier = 1000,
+	RelatedJob = {
+		Job = "BAILIFF",
+		Behavior = "WORK_BEHAVIOR",
+	},
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_WAREHOUSE",
+	SocketCapacity = 1000,
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_WEAVER_HUT",
+	ResourceProduced = {
+		{
+			Resource = "WOOLEN_CLOTH",
+			Quantity = 5,
+		},
+	},
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_WHEAT_FARM",
+	ResourceProduced = {
+		{
+			Resource = "WHEAT",
+			Quantity = 5,
+		},
+	},
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_WINDMILL",
+	ResourceProduced = {
+		{
+			Resource = "FLOUR",
+			Quantity = 5,
+		},
+	},
+})
+
+foundationPlus:overrideAsset({
+	Id = "BUILDING_FUNCTION_WOODCUTTER",
+	ResourceProduced = {
+		{
+			Resource = "WOOD",
+			Quantity = 5,
+		},
+	},
+})
+
 -- split --
